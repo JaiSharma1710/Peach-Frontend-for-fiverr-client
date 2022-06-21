@@ -1,0 +1,265 @@
+/* NAVIGATION */
+
+.header {
+  /* padding-top: 2rem; */
+  padding: 2rem 10rem 0 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffcccc;
+  position: relative;
+}
+
+.nav_logo {
+  text-decoration: none;
+  font-family: "Caveat Brush", cursive, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: black;
+}
+
+.nav_logo:hover {
+  color: #069c54;
+}
+
+.nav_list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav_list li {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav_list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav_list li a:hover {
+  color: #069c54;
+}
+
+.nav_list :first-child {
+  margin-left: 0;
+}
+.nav_list :last-child {
+  margin-right: 0;
+}
+
+/* SECTION 1 */
+
+.section-1 {
+  background-color: #ffcccc;
+}
+
+.section-1-main {
+  margin: auto;
+  max-width: 85rem;
+  padding: 3rem 2rem 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.section-1-img img {
+  width: 80%;
+  margin-left: 5rem;
+}
+
+.section-1-content h2 {
+  font-size: 5.5rem;
+  line-height: 6.5rem;
+}
+.section-1-content h1 {
+  font-size: 6rem;
+  line-height: 6.5rem;
+}
+
+.section-1-content p {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  color: #555;
+  line-height: 2rem;
+}
+
+.section-1-btn {
+  margin-top: 30px;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.try-btn {
+  background-color: #069c54;
+  color: white;
+  border: 1px solid #069c54;
+}
+
+.learn-btn {
+  background-color: white;
+  border: 1px solid #069c54;
+  color: #069c54;
+  margin-left: 5px;
+}
+
+.try-btn:hover {
+  background-color: #037940;
+}
+.learn-btn:hover {
+  background-color: #ffcccc;
+}
+
+/* mobile nav */
+
+.btn-mobile-nav {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 3rem;
+  width: 3rem;
+  color: black;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+.section-2 {
+  padding: 5rem 0;
+}
+
+.section-2-main {
+  margin: auto;
+  max-width: 85rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  margin: 0 2rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-0.5rem);
+}
+
+.section-3-main {
+  max-width: 85rem;
+  margin: auto;
+  text-align: center;
+}
+
+.section-3-main h1 {
+  font-size: 2.8rem;
+}
+
+.section-3-main h2 {
+  font-size: 2rem;
+  color: #069c54;
+}
+
+.section-3-brands {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 3rem;
+  margin-top: 3rem;
+}
+.section-3-brands img {
+  margin: auto;
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+}
+
+.section-3-brands img:hover {
+  transform: scale(110%);
+}
+
+.section-4 {
+  padding: 5rem 0;
+}
+
+.section-4-main {
+  max-width: 85rem;
+  /* border-radius: 15px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); */
+  padding: 3rem 0;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  padding: 2rem;
+}
+
+.left h1 {
+  font-size: 3rem;
+}
+
+.left p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 1rem;
+  line-height: 1.8rem;
+}
+
+.left p span {
+  font-weight: bold;
+}
+
+.left button {
+  margin-top: 2rem;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-color: #069c54;
+  color: white;
+  border: 1px solid #069c54;
+}
+
+.left button:hover {
+  background-color: #037940;
+}
+
+.right {
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.right img {
+  width: 70%;
+  border-radius: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
